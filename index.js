@@ -15,4 +15,3 @@ document.addEventListener('DOMContentLoaded', () => {
   Books.listSection();
   titleParent.style.display = 'block';
 });
- 
