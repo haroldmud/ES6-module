@@ -1,0 +1,13 @@
+{
+    "terminal.integrated.tabs.enableAnimation": true,
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.shellIntegration.decorationsEnabled": true,
+    "terminal.integrated.macOptionIsMeta": false,
+    "terminal.integrated.lineHeight": 1,
+    "terminal.integrated.letterSpacing": 0,
+    "terminal.integrated.fontSize": 10,
+    "terminal.integrated.environmentChangesIndicator": "on",
+    "terminal.integrated.enableBell": false,
+    "terminal.integrated.cursorWidth": 1,
+    "terminal.integrated.cursorStyle": "block"
+}
