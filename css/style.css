@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Square+Peg&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  font-size: 12px;
+  font-family: 'roboto', sans-serif;
+}
+
+/* navigation section */
+nav {
+  margin: auto;
+  margin-top: 5rem;
+  background-color: #007bff4b;
+  color: white;
+  border-radius: 1rem;
+  display: flex;
+  padding: 1rem 2rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 8px 5px #24395059;
+  width: 60%;
+}
+
+.navBar {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Logo {
+  font-weight: bold;
+  margin-right: auto;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.link {
+  margin: 0 12px;
+  cursor: pointer;
+  transform: translateY(10%);
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: ease 0.4s;
+}
+
+.link:hover {
+  color: #2e435a;
+  border-bottom: 2px solid #2e435a;
+}
+
+.main {
+  width: 70%;
+  display: flex;
+  padding: 2rem 0;
+  min-height: 20rem;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem auto;
+  border: 2px dashed black;
+  background-color: #007bff0c;
+}
+
+.books_warn {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-align: center;
+  display: block;
+  color: #0400ff;
+}
+
+.books-title {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.books {
+  width: 80%;
+  margin: 0 auto 1.2rem auto;
+}
+
+.masterPiece {
+  width: 80%;
+  height: 1.8rem;
+  font-size: 1.05rem;
+  margin: 1rem auto;
+  display: flex;
+  padding: 0 1rem;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid rgb(17, 17, 17, 0.3);
+}
+
+.Remove {
+  cursor: pointer;
+  color: rgb(72, 255, 0);
+  font-weight: bold;
+}
+
+.Remove:hover {
+  color: #f00;
+}
+
+.noBooks {
+  text-align: center;
+  color: rgb(206, 120, 120);
+}
+
+.error {
+  color: #f00;
+  margin: 12px 0;
+  font-weight: bold;
+  display: none;
+}
+
+.sectionAdded {
+  width: 80%;
+  font-size: 1.05rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workInput {
+  width: 70%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.AddingButton {
+  background-color: rgb(0, 66, 128);
+  color: #fff;
+  padding: 12px;
+  width: 20%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.AddingButton:active {
+  transform: scale(0.98);
+}
+
+.contact-text {
+  text-align: center;
+  margin: 2rem;
+  font-size: 1.2rem;
+}
+
+.contact-list {
+  text-align: center;
+  list-style-type: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%;
+  padding-bottom: 10rem;
+}
+
+footer p {
+  color: #111;
+  padding: 1rem 2rem;
+  border-radius: 55px;
+  background-color: #007bff34;
+  font-size: 1rem;
+}
