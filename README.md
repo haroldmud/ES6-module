@@ -13,8 +13,6 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](## Live Demo (if available)
-
 [Live Demo Link](https://haroldmud.github.io/ES6-module/)
 
 ## Getting Started
