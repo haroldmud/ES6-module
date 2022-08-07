@@ -11,9 +11,11 @@
 - Github actions
 - ES6-modules
 
-<!-- ## Live Demo (if available) -->
+## Live Demo (if available)
 
-<!-- [Live Demo Link](https://livedemo.com) -->
+[Live Demo Link](## Live Demo (if available)
+
+[Live Demo Link](https://haroldmud.github.io/ES6-module/)
 
 ## Getting Started
 
